@@ -1,2 +1,2 @@
 # blog-project
-Blog project
+blog-project-row-php

@@ -1,0 +1,163 @@
+/**************************
+
+    Theme Name: brown ;
+    Author: Zaman,
+
+***************************/
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    background: url(../images/background.png) fixed 0 0;
+}
+
+.container-bg {
+    background: #772f2f;
+}
+
+.container-inner-bg {
+    background: #def0ff;
+    padding: 15px;
+}
+
+li.active {
+    background: #772f2f;
+}
+
+a#social-link {
+    border-bottom: 1px solid #505050;
+    background: #772f2f;
+}
+.searchbtn input[type="text"], .searchbtn input[type="submit"] {
+    background: #772f2f;
+}
+
+.banner-area {
+    height: 200px;
+    background: url(../images/coffee.jpg) no-repeat scroll center center/cover;
+}
+
+.menu-bg,
+.header-bg {
+    background: #B22222;
+}
+
+ul.nav > li:hover,
+ul.nav > li > a:hover {
+    background: #103d5f;
+    color: #fff;
+}
+
+
+
+
+.section-title:after {
+    background: #d7d7d7;
+}
+
+.section-title:before {
+    background: #009bdf;
+}
+
+
+
+.articles-link li a:hover,
+.archive li a:hover,
+.recent-post:hover {
+    color: orange;
+}
+
+.tag-link {
+    background: #772f2f;
+}
+
+a.next-page {
+    background: #772f2f;
+}
+
+a.next-page:hover,
+.tag-link:hover {
+    background: #4aa0de;
+    color: #fff;
+}
+
+a.next-page:active,
+.tag-link:active {
+    background: #4aa0de;
+    color: #fff;
+}
+
+
+
+.recent-articles {
+    border-bottom: 1px dotted #ddd;
+}
+
+.recent-articles a img {
+    background: #fff;
+    border: 1px solid #ebb450;
+}
+
+.main-post h2,
+.post h2,
+.related-post h2 {
+    border-bottom: 1px solid #000;
+}
+
+.main-post {
+    overflow: hidden;
+}
+
+a.read-more {
+    background: #772f2f;
+}
+
+.main-post a img {
+    background: #fff;
+    border: 1px solid #ebb450;
+}
+
+.post img {
+    background: #fff;
+    border: 1px solid #ebb450;
+}
+
+
+.rel-post img {
+    background: #fff;
+    border: 1px solid #ebb450;
+}
+
+
+.footer-bg{
+    background: #B22222;
+    color: #fff;
+}
+
+.scroll-top a {
+    background: #ff3434;
+    color: #fff;
+
+}
+
+.contact-form {
+    border: 1px solid #ddd;
+
+}
+
+
+.textarea textarea{
+    border: 1px solid #ddd;
+
+}
+
+.signupbtn {
+    background: #772f2f;
+}
+
+.signupbtn:hover {
+    background: #B22222;
+    color: #fff;
+
+}

@@ -1,0 +1,259 @@
+/**************************
+
+    Theme Name: Example
+    Author: Zaman,
+
+***************************/
+
+/********************
+*+-----Base CSS-----+*
+*********************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    background: #204562;
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    transition: .3s;
+}
+
+div.panel-heading h2,
+div.well h3 {
+    margin: 0px;
+}
+
+.panel-heading.section-title {
+    background: #e6f0f3;
+}
+
+section.header-area {
+    padding: 10px 0px;
+}
+
+.header-top {
+    background: #315c7c;
+    min-height: 50px;
+    margin: 10px 0px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.middle-header {
+    background: url("img/nav-repeat.jpg") repeat-x scroll 0 6px !important;
+    min-height: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+.panel-body.sidebar {
+    background: #d1dee4;
+}
+
+.logo a img,
+.logo a h2 {
+    display: inline-block;
+    margin: 0px;
+    color: #fff;
+}
+
+.logo a img {
+    padding: 10px;
+}
+
+nav.header-menu {
+    margin-top: 10px;
+}
+
+ul.nav li a {
+    color: #fff;
+    padding-left: 30px;
+}
+
+ul.nav li a.admin-ic {
+    background: url(img/img-profile.jpg) no-repeat center left;
+}
+
+ul.nav li a.admin-ic:hover {
+    background: url(img/img-profile.jpg) no-repeat center left;
+}
+
+ul.nav li a.ic-dashboard {
+    background: url(img/house.png) no-repeat center left 8px;
+}
+
+ul.nav li a.ic-dashboard:hover {
+    background: url(img/house.png) no-repeat center left 8px;
+}
+
+
+ul.nav li a.ic-theme {
+    background: url(img/cog.png) no-repeat center left 8px;
+}
+
+ul.nav li a.ic-theme:hover {
+    background: url(img/cog.png) no-repeat center left 8px;
+}
+
+ul.nav li a.ic-profile {
+    background: url(img/icon-form-style.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-profile:hover {
+    background: url(img/icon-form-style.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-pass {
+    background: url(img/icon-notifications.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-pass:hover {
+    background: url(img/icon-notifications.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-inbox {
+    background: url(img/icon-grid-tables.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-inbox:hover {
+    background: url(img/icon-grid-tables.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-visitor {
+    background: url(img/icon-charts-graphs.png) no-repeat center left 5px;
+}
+
+ul.nav li a.ic-visitor:hover {
+    background: url(img/icon-charts-graphs.png) no-repeat center left 5px;
+}
+
+ul.nav li a:focus {
+    background: none;
+}
+
+ul.nav li:hover,
+ul.nav li a:hover {
+    background: #103d5f;
+    color: #6ef4c7;
+}
+
+ul.section.menu {
+    margin-bottom: 0px;
+}
+
+ul.section.menu li ul {
+    list-style: none;
+}
+
+.block {
+    min-height: 400px;
+}
+
+.catblock,
+.sloginblock,
+.social,
+.copyblock,
+.passchange {
+    width: 50%;
+    margin-left: 50px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.addpost {
+    margin-left: 50px;
+    width: 85%;
+}
+
+#select,
+#select option{
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+}
+
+#title,
+#tags,
+#author {
+    width: 300px;
+}
+
+.addpost form div label,
+.editpost form div label{
+    display: block;
+}
+
+.addpost form div textarea,
+.editpost form div textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    height: 250px;
+    border: 1px solid #ddd;
+}
+
+.editpost form div textarea:focus,
+.editpost form div textarea:focus{
+    border: 1px solid #315c7c;
+}
+
+.inbox.table{
+    margin-right: 30px;
+}
+
+.inbox.table {
+    margin-left: 30px;
+    width: 70%;
+}
+
+.inbox.replay {
+    width: 500px;
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.textarea label{
+    display: block;
+}
+
+.textarea textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    height: 170px;
+}
+
+fieldset {
+    padding: 30px;
+    margin: 0px;
+    border: 1px solid #ddd;
+}
+
+legend {
+    display: block;
+    width: 33%;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    text-align: center;
+    border-bottom: 0px solid #e5e5e5;
+}

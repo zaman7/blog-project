@@ -26,7 +26,6 @@
 <body>
     <div class="contact-form">
         <section class="content">
-            <img src="img/man.png" alt="">
             <?php
                 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     $username = $Helpers->validation($_POST['username']);
@@ -60,12 +59,12 @@
             <h1>Login Here</h1>
             <form action="" method="post">
                 <div class="login-ipbox">
-                    <label for="email">E-Mail*</label>
-                    <input type="text" placeholder="Email" id="email" name="username" />
+                    <label for="username">Username*</label>
+                    <input type="text" placeholder="Username" id="username" name="username" value="zaman" />
                 </div>
                 <div class="login-ipbox">
                     <label for="password">Password*</label>
-                    <input type="password" placeholder="Password" id="password" name="password" />
+                    <input type="password" placeholder="Password" id="password" value="1234" name="password" />
                 </div>
                 <div class="login-submit-box">
                     <button type="submit" name="submit">Login</button>

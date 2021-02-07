@@ -59,8 +59,8 @@
             <h1>Login Here</h1>
             <form action="" method="post">
                 <div class="login-ipbox">
-                    <label for="username">Username*</label>
-                    <input type="text" placeholder="Username" id="username" name="username" value="zaman" />
+                    <label for="email">Username*</label>
+                    <input type="text" placeholder="Username" id="email" name="username" value="zaman" />
                 </div>
                 <div class="login-ipbox">
                     <label for="password">Password*</label>

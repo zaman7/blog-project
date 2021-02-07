@@ -1,3 +1,3 @@
-# Make Blog Website using ROW. PHP
+# make blog website using row php & mysql
 blog-project-row-php
 
